@@ -1,0 +1,69 @@
+
+/* Element Styles */
+
+body {
+    color: black;
+    background: #EEE url(../img/bg_texture.gif);
+    font: 10pt/15pt "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0; padding: 0;
+}
+
+a, a:link {color: black; text-decoration: underline;}
+a:hover, a:focus {text-decoration: none;}
+
+dd, dt, dl, h1, h2, h3, h4, h5, h6, li, p, ol, ul {margin: 0;}
+dl, h1, h2, h3, h4, h5, h6, ol, ul {padding: .5em 0;}
+p {padding: .25em 0 .5em 0;}
+dd {padding-bottom: .5em;}
+dt {font-weight: bolder;}
+ol, ul, dd {padding-left: 1.5em;}
+ul {list-style: square;}
+
+h2 {font-size: 16pt;}
+h3 {font-size: 14pt;}
+
+/* Layout Styles */
+
+#page {margin: 0 auto; width: 800px;}
+
+#banner {
+    color: white;
+    border-radius: 0 0 10pt 10pt;
+    -webkit-border-radius: 0 0 10pt 10pt;
+    -moz-border-radius: 0 0 10pt 10pt;
+    background: #b0ddf1 url(../img/bg_banner.png) center center no-repeat;
+    height: 200px; width: 800px;
+    position: relative;
+}
+#banner hgroup, #banner .hgroup {position: absolute; bottom: 0; width: 800px; text-shadow: #444 0px 1px 0px;}
+#banner hgroup h1, #banner hgroup h2, #banner .hgroup h1, #banner .hgroup h2 {margin: 0; padding: 10pt 20pt;}
+#banner hgroup h2, #banner .hgroup h2 {font-weight: lighter; padding-bottom: 5pt;}
+#banner hgroup h1, #banner .hgroup h1 {padding-top: 0pt; font-size: 18pt;}
+
+#banner .date {background: url(../img/logo-ldav-sm-banner.png) right center no-repeat; text-align: right; padding-right: 50pt; padding-top: 0pt; font-weight: lighter; font-size: 110%; position: relative; top: 10pt;}
+
+#banner .logo {position: absolute; padding-left: 20pt; padding-top: 10pt;}
+#banner .logo img {position: absolute;}
+#banner .logo h1 {position: relative; top: 60px; left: 100px; text-shadow: #444 0px 1px 0px;}
+
+#nav, #foot {border-radius: 10pt; -webkit-border-radius: 10pt; -moz-border-radius: 10pt; text-align: left; padding-top: 5pt; padding-bottom: 5pt;}
+#nav, #foot, #main {padding-left: 20pt; padding-right: 20pt;}
+#nav {background-repeat: repeat-y; background: #68A4BE; border-bottom-left-radius: 0; border-bottom-right-radius: 0; -webkit-border-bottom-left-radius: 0; -webkit-border-bottom-right-radius: 0; -moz-border-radius-bottomleft: 0; -moz-border-radius-bottomright: 0; font-size: 12pt; list-style: none;}
+
+
+#nav li {display: inline; padding-left: 10pt;}
+#nav li:first-child {padding-left: 0;}
+#nav li a {color: white; font-weight: bold; text-decoration: none;}
+#nav li a:hover {border-bottom: 2pt solid white;}
+
+#main, #foot {background-color: #d9e9ef; border: 1pt solid #c0c7ca;}
+#main {border-top: none; border-bottom: none; color: #333; padding-top: 20pt; min-height: 300pt;}
+
+
+#foot {border-top: none; color: #aaa; font-size: 80%; border-top-left-radius: 0; border-top-right-radius: 0; -webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 0; -moz-border-radius-topleft: 0; -moz-border-radius-topright: 0; padding-top: 40pt; text-align: center;}
+
+/* Reusable Classes */
+
+.vspace {height: 15pt; overflow: hidden;}
+
+
